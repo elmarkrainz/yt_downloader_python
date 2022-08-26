@@ -71,3 +71,9 @@ Video im Ordner öffnen, fertig
 
 ## Ein paar Updates für einfachere Bedienung
 
+Hinzufügen einer Eingabemöglichkeit für die YT-Url
+	
+	url = (input("paste the YT url: "))
+	
+
+

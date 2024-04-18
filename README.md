@@ -2,18 +2,18 @@
 
 A simple intro to solve a problem with python. 
 
-## Eine einfache Problemstellung
+## A simple problem
 
-Problem: Man will ein YT Video auch offline für rein private Zwecke downloaden.
+Problem: I want to download a YT video offline for purely private purposes.
 
-Wenn ich ein Programm brauche und ich finde kein passendes, dann kann ich selbst eines erstellen.
+If I need a programme and I can't find a suitable one, then I can create one myself.
 
-z.B. meinen eigene YT downloader ohne Werbung oder versteckte Funktionen.
+e.g. my own YT downloader without adverts or hidden functions.
 
 
-## Was braucht man fürs Erstellen eines einfachen Programms
+## What do you need to create a simple programme
 
-Man braucht nicht viel, eine passenden Programmiersprache z.b. `Python` und einen Editor um ein Programm zu erstellen.
+You don't need much, a suitable programming language e.g. `Python` and an editor to create a programme.
 
 #### Python
 
@@ -24,10 +24,10 @@ Man braucht nicht viel, eine passenden Programmiersprache z.b. `Python` und eine
 
 #### Editor
 
-Das wichtigste Tool aller Developer ist der Editor. Der Editor dient zum Bearbeiten von Text, zum Programmieren, um Code zu bearbeiten und zum Lesen und alles was dazugehört.
+The most important tool for all developers is the editor. The editor is used for editing text, programming, editing code, reading and everything that goes with it.
 
-Die Auswahl ist groß und jeder hat bald einen eigenen Lieblingseditor.
-Beliebte Editoren sind z.B.:
+There is a large selection and everyone soon has their own favourite editor.
+Popular editors are, for example:
 
 * TextEdit
 * Atom
@@ -36,21 +36,21 @@ Beliebte Editoren sind z.B.:
 * Notepad++
 
 
-## Wie erstelle ich ein einfaches Programm?
+## How do I create a simple programme?
 
-Für einen YT Downloader braucht man zuerst die richtige Programmbibliothek 
+For a YT downloader you first need the right programme library 
 
-Zum Installieren:
+To install it:
 
 	pip install pytube
 		
 
-Mit einem passenden Editor wird ein neues Python File erstellt
+A new Python file is created with a suitable editor
 	
-	ytdownloader.py
+ytdownloader.py
 	
-	
-Python-Code für YT downloader
+
+Python code for YT downloader
 
 	from pytube import YouTube
 
@@ -62,16 +62,15 @@ Python-Code für YT downloader
 
 	print('your video is downloaded successfully')
 
-
-ausführen mit
+execute with
 
 	python ytdownloader.py
 	
-Video im Ordner öffnen, fertig
+Open video in folder, done
 
-## Ein paar Updates für einfachere Bedienung
+## A few updates for easier operation
 
-Hinzufügen einer Eingabemöglichkeit für die YT-Url
+Add an input option for the YT url
 	
 	url = (input("paste the YT url: "))
 	
